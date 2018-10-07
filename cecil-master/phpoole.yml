@@ -1,0 +1,19 @@
+site:
+  title: 'Cecil'
+  baseline: "Your blog's butler."
+  baseurl: '/'
+  canonicalurl: true
+  description: "Your blog's butler, powered by PHPoole."
+  paginate:
+    max: 5
+    path: 'page'
+  date:
+    format: 'j F Y'
+    timezone: 'Europe/Paris'
+  netlify:
+    cms:
+      path: 'admin'
+      version: 'latest'
+    identity:
+      version: 'v1'
+theme: 'hyde'
